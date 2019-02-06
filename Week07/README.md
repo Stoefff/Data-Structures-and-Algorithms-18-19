@@ -60,7 +60,7 @@ Yes, can be written to be stable, but **Not** adaptive
 * Nodes on the same level are with left priority - small are on the left
 ```c++
 heap_sort(arr, s){
-    for(i <- (n/2)+1; i > 0; i--){ //build hear function
+    for(i <- (n/2)+1; i > 0; i--){ //build heap function
         sift(arr, i, )
     }
     for(i <- n, i > 1, i--){
@@ -175,4 +175,4 @@ AVL, red-black trees, B-trees
 
 ### Binary heap
 Binary tree with O(1) access and O(log n) add and delete because
-it uses the 
+it uses the
