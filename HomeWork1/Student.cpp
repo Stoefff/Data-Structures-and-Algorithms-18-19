@@ -11,9 +11,9 @@ Student::Student(const char* nName, const char* nUni):
     if (!validUni(nUni)){
         throw std::invalid_argument("No such uni allowed");
     }
-    name = new char[strlen(nName)];
+    name = new char[strlen(nName) + 1];
     strcpy(name, nName);
-    uni = new char[strlen(nUni)];
+    uni = new char[strlen(nUni) + 1];
     strcpy(uni, nUni);
 }
 
@@ -41,9 +41,9 @@ void Student::free(){
 }
 
 void Student::copy(const Student& rhs){
-    name = new char[strlen(rhs.name)];
+    name = new char[strlen(rhs.name) + 1];
     strcpy(name, rhs.name);
-    uni = new char[strlen(rhs.uni)];
+    uni = new char[strlen(rhs.uni) +1];
     strcpy(uni, rhs.uni);
 }
 
