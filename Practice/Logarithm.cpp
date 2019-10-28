@@ -16,6 +16,7 @@ double natLog(double number){
 }
 
 int main(){
+    
     double number;
     cout << "Enter number, which ln should be calculated: ";
     cin >> number;
