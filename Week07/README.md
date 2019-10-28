@@ -24,7 +24,7 @@ the last, the middle and makes the pivot its average
 Just like the quick sort but with 3 partitions, instead of 2
 
 ### Complexity
-* Time - n logn
+* Time - n log n
 * Memory - log n, because the recursion uses new stack frames
 
 ### The algorithm is not stable and not adaptive
@@ -50,7 +50,7 @@ merge_sort(arr, l, r){
 ### Stability and Adaptivity
 Yes, can be written to be stable, but **Not** adaptive
 
-### Tim Sort - same shit but more tarikatsko
+### Tim Sort - same shit but more cheeky
 
 ### Heap sort
 
@@ -171,7 +171,7 @@ the biggest is the far right
 ### Advanced data structures
 AVL, red-black trees, B-trees
 
-**The aim is all trees to be binary balanced podredeni**
+**The aim is all trees to be binary balanced and ordered**
 
 ### Binary heap
 Binary tree with O(1) access and O(log n) add and delete because
