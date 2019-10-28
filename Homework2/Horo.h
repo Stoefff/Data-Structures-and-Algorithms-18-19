@@ -64,6 +64,7 @@ public:
     // Helpers
     void print();
     bool empty(const string& firstDancerName);
+    
     string getRightName(const string& name);
 
 private:
